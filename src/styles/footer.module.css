@@ -1,0 +1,36 @@
+.foot{
+    display: flex;
+    background-color:rgb(5, 39, 50); 
+    flex-direction: row;
+    color:  rgb(255, 255, 255);
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.foot section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.foot h4 a{
+    color: rgb(125, 230, 125);
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.2s;
+
+}
+.foot h4 a:hover{
+    color: rgb(79, 132, 79);
+    opacity: 0.8;
+    
+}
+.foot ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.foot img:hover{
+    opacity: 0.7;
+}

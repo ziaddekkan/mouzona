@@ -1,0 +1,286 @@
+{
+  "intents": [
+    {
+      "tag": "salutations",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Bonsoir",
+        "Hello",
+        "Y a-t-il quelqu'un ?",
+        "Salam",
+        "Kifach khdama?",
+        "Azul"
+      ],
+      "responses": [
+        "Bonjour et bienvenue à Mouzouna ! Comment puis-je vous aider ?",
+        "Salam ! Je suis le chatbot de la ferme Mouzouna, à votre service."
+      ]
+    },
+    {
+      "tag": "aurevoir",
+      "patterns": [
+        "Au revoir",
+        "Merci beaucoup",
+        "Ciao",
+        "À la prochaine",
+        "Bye",
+        "Saha",
+        "Tanmirt"
+      ],
+      "responses": [
+        "Merci de votre visite, à bientôt à Mouzouna !",
+        "N'hésitez pas à revenir vers nous si vous avez d'autres questions."
+      ]
+    },
+    {
+      "tag": "hebergement_types",
+      "patterns": [
+        "Quels types de chambres avez-vous ?",
+        "Avez-vous des bungalows ?",
+        "Chambre traditionnelle ?",
+        "Hébergement disponible ?"
+      ],
+      "responses": [
+        "Nous proposons des chambres doubles, familiales, et des lodges amazighs en terre crue.",
+        "Nos hébergements allient confort et architecture traditionnelle."
+      ]
+    },
+    {
+      "tag": "checkin_checkout",
+      "patterns": [
+        "À quelle heure est le check-in ?",
+        "Et le check-out ?",
+        "Quand puis-je arriver ?",
+        "Heure de départ ?"
+      ],
+      "responses": [
+        "Le check-in se fait à partir de 14h, et le check-out avant 12h.",
+        "Nous pouvons adapter selon la disponibilité."
+      ]
+    },
+    {
+      "tag": "tarifs_details",
+      "patterns": [
+        "Quels sont vos tarifs ?",
+        "Combien coûte une nuit ?",
+        "Prix d'une chambre double ?",
+        "Y a-t-il des offres spéciales ?"
+      ],
+      "responses": [
+        "Nos chambres sont à partir de 500 MAD la nuit, petit déjeuner inclus.",
+        "Des réductions sont possibles pour les groupes ou longs séjours."
+      ]
+    },
+    {
+      "tag": "restaurant_menu",
+      "patterns": [
+        "Que propose le restaurant ?",
+        "Quel est le menu ?",
+        "Avez-vous des plats végétariens ?",
+        "Cuisine traditionnelle ?"
+      ],
+      "responses": [
+        "Nous servons du tajine, couscous, tanjia, grillades, ainsi que des options végétariennes.",
+        "Tous nos plats sont faits maison avec des produits locaux."
+      ]
+    },
+    {
+      "tag": "horaires_repas",
+      "patterns": [
+        "Quand puis-je manger ?",
+        "Heures du déjeuner ?",
+        "Le dîner est à quelle heure ?",
+        "Petit déjeuner à quelle heure ?"
+      ],
+      "responses": [
+        "Le petit déjeuner est servi de 7h à 10h, le déjeuner de 12h à 15h, et le dîner à partir de 19h."
+      ]
+    },
+    {
+      "tag": "cafe_services",
+      "patterns": [
+        "Que propose le café ?",
+        "Puis-je prendre un thé ?",
+        "Avez-vous du jus ?",
+        "Où se trouve le café ?"
+      ],
+      "responses": [
+        "Notre café offre des jus frais, du thé à la menthe, du café marocain et des douceurs locales.",
+        "La terrasse offre une belle vue sur les montagnes."
+      ]
+    },
+    {
+      "tag": "piscine_acces",
+      "patterns": [
+        "Est-ce que je peux aller à la piscine ?",
+        "Horaires de la piscine ?",
+        "La piscine est chauffée ?",
+        "Piscine ouverte en hiver ?"
+      ],
+      "responses": [
+        "La piscine est ouverte tous les jours de 9h à 17h,les prix d'entrer est 100dh pour les adultes et 60dh pour les enfants, non chauffée."
+
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Y a-t-il le wifi ?",
+        "Est-ce que la ferme a internet ?",
+        "Puis-je travailler depuis la ferme ?",
+        "Wifi gratuit ?"
+      ],
+      "responses": [
+        "Oui, nous avons un réseau wifi gratuit dans les espaces communs, le code est :2025@2025."
+      ]
+    },
+    {
+      "tag": "climatisation",
+      "patterns": [
+        "Les chambres sont-elles climatisées ?",
+        "Avez-vous des ventilateurs ?",
+        "Est-ce qu'il fait chaud la nuit ?",
+        "Confort en été ?"
+      ],
+      "responses": [
+        "Les chambres sont bien ventilées naturellement, et des ventilateurs sont disponibles si besoin."
+      ]
+    },
+    {
+      "tag": "animaux_acceptes",
+      "patterns": [
+        "Puis-je venir avec mon chien ?",
+        "Les animaux sont acceptés ?",
+        "Politique animaux ?",
+        "Animaux domestiques autorisés ?"
+      ],
+      "responses": [
+        "Oui, les animaux de compagnie sont les bienvenus sous certaines conditions. Merci de nous prévenir à l'avance."
+      ]
+    },
+    {
+      "tag": "activites_generales",
+      "patterns": [
+        "Quelles activités proposez-vous ?",
+        "Que puis-je faire à Mouzouna ?",
+        "Loisirs sur place ?",
+        "Des activités pour toute la famille ?"
+      ],
+      "responses": [
+        "Nous proposons des randonnées, balades à dos d’âne, yoga, observation des étoiles et ateliers artisanaux."
+      ]
+    },
+    {
+      "tag": "randonnee",
+      "patterns": [
+        "Puis-je faire une randonnée ?",
+        "Balade dans la montagne ?",
+        "Y a-t-il un guide ?",
+        "Randonnée autour de la ferme ?"
+      ],
+      "responses": [
+        "Oui, nous organisons des randonnées guidées ou libres autour du village et dans la montagne.",
+        "Nos sentiers sont adaptés à tous les niveaux."
+      ]
+    },
+    {
+      "tag": "activites_enfants",
+      "patterns": [
+        "Des activités pour enfants ?",
+        "Je viens avec mes enfants",
+        "Y a-t-il des jeux pour les petits ?",
+        "Ateliers pour enfants ?"
+      ],
+      "responses": [
+        "Nous avons des activités ludiques et éducatives pour les enfants : jardinage, animaux de la ferme, poterie, peinture."
+      ]
+    },
+    {
+      "tag": "culture_amazighe",
+      "patterns": [
+        "Proposez-vous des activités culturelles ?",
+        "Je veux découvrir la culture amazighe",
+        "Traditions locales ?",
+        "Musique amazighe ?"
+      ],
+      "responses": [
+        "Oui ! Nous organisons des soirées amazighes avec musique, danse et contes.",
+        "Vous pouvez aussi apprendre quelques mots en tamazight avec notre équipe."
+      ]
+    },
+    {
+      "tag": "soiree_traditionnelle",
+      "patterns": [
+        "Y a-t-il des soirées ?",
+        "Spectacle le soir ?",
+        "Animations le soir ?",
+        "Danse et musique ?",
+        "Soirée culturelle ?"
+      ],
+      "responses": [
+        "Chaque week-end, nous organisons une soirée amazighe avec musique live, danse traditionnelle et feu de camp."
+      ]
+    },
+    {
+      "tag": "evenement_prive",
+      "patterns": [
+        "Puis-je organiser un anniversaire ?",
+        "Mariage à la ferme ?",
+        "Événement privé ?",
+        "Privatiser le lieu ?"
+      ],
+      "responses": [
+        "Oui, nous accueillons les événements privés : mariages, anniversaires, retraites, en toute intimité et dans un cadre naturel."
+      ]
+    },
+    {
+      "tag": "bien_etre",
+      "patterns": [
+        "Avez-vous du yoga ?",
+        "Séances de méditation ?",
+        "Activités de bien-être ?",
+        "Se détendre à Mouzouna ?"
+      ],
+      "responses": [
+        "Nous proposons des séances de yoga en plein air, méditation guidée et soins naturels sur demande."
+      ]
+    },
+    {
+      "tag": "observation_etoiles",
+      "patterns": [
+        "Peut-on voir les étoiles ?",
+        "Observation nocturne ?",
+        "Ciel étoilé ?",
+        "Regarder les étoiles ?"
+      ],
+      "responses": [
+        "La ferme est éloignée de la pollution lumineuse. Le ciel est idéal pour observer les étoiles et constellations."
+      ]
+    },
+    {
+      "tag": "ateliers",
+      "patterns": [
+        "Quels ateliers proposez-vous ?",
+        "Atelier poterie ?",
+        "Cuisine amazighe ?",
+        "Participer à un atelier ?"
+      ],
+      "responses": [
+        "Nous proposons des ateliers de poterie, cuisine traditionnelle, tissage, et peinture amazighe."
+      ]
+    },
+    {
+      "tag": "cuisine_atelier",
+      "patterns": [
+        "Puis-je apprendre à faire un tajine ?",
+        "Cours de cuisine amazighe ?",
+        "Atelier culinaire ?",
+        "Je veux cuisiner avec vous"
+      ],
+      "responses": [
+        "Bien sûr ! Participez à notre atelier tajine ou pain au feu de bois avec nos cuisinières locales."
+      ]
+    }
+  ]
+}

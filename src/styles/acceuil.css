@@ -1,0 +1,64 @@
+.acceuil .presentation{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    position: relative;
+    background-color: rgb(41, 112, 162);
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+    left: 10%;
+    color: white;
+}
+
+.acceuil .presentation figure{
+    background-color: rgba(20, 20, 20, 0.652);
+    align-self: center;
+    margin: 0;
+}
+.acceuil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 60px;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.466);
+    font-size: 25px;
+    border-radius: 10%;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.332);
+}
+.acceuil .service{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(206, 235, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+    left: 10%;
+}
+.acceuil .service div{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.acceuil .service img{
+    border-radius: 40%;
+}
+@media (orientation:portrait){
+    .acceuil{
+        border-radius: 20px;
+    }
+    .acceuil .service{
+        flex-direction: column;
+
+    }
+
+}
